@@ -1,0 +1,44 @@
+body,
+html {
+
+    width: 100%;
+    height: 100%;
+    background: url(header.jpg) no-repeat center center fixed;
+    -webkit-background-size:cover ;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1{
+    font-size: 3rem;
+    color: #dae0e6;
+}
+
+hr {
+border-color:#ea8017;
+background-color:#ea8017 ;
+border-width: 3px;
+border-style: solid;
+max-width: 65px;
+
+}
+
+.buffer {
+    height: 142px;
+}
+
+.btn{
+    border-radius: 300px;
+}
+.btn-primary {
+    background-color: #ea8017;
+    border-color: #ea8017;
+}
+.btn-primary:hover{
+    background-color: #eec32e;
+    border-color: #eec32e;
+}
+
+.btn-xl{
+    padding: 1rem 2rem;
+}
